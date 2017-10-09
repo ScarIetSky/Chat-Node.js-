@@ -1,0 +1,26 @@
+{
+  "name": "node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "ejs-locals": "^1.0.2",
+    "express": "~4.15.5",
+    "express-error-handler": "^1.1.0",
+    "logger": "0.0.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.1",
+    "morgan": "~1.9.0",
+    "nconf": "^0.8.5",
+    "node-sass-middleware": "0.9.8",
+    "serve-favicon": "~2.4.5",
+    "winston": "^2.4.0"
+  }
+}
