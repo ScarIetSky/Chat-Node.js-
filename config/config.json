@@ -2,7 +2,20 @@
   "port" : 3000,
   "mongoose": {
     "uri": "mongodb://localhost/chat",
-    "useMongoClient": 1,
-    "keepAlive": 1
+    "options": {
+      "url": "mongodb://localhost/",
+      "db": "session",
+      "useMongoClient": 1,
+      "keepAlive": 1
+    }
+  },
+  "session": {
+    "secret":"SecretKey",
+    "key": "sid",
+    "cookie": {
+      "path" : "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
   }
 }
